@@ -12,16 +12,21 @@ function progressStory() {
     // Appends integer for textboxId
     let appendText = document.getElementById("textbox");
     let newText = document.createElement("li");
-    newText.innerHTML = textContent(textboxId);
+    newText.innerHTML = textContent;
     appendText.appendChild(newText);
 }
 
 // Text content changes for next append
 function updateTextboxId(x) {
-        textContent(1) = "<p>first text</p>"
-        textContent(2) = "<p>third text</p>"
-        textContent(3) = "<p>fourth text</p>"
-        textContent(4) = "<p>fifth text<p/>"
+    if (x == 1) {
+        textContent = "<p>first text</p>"
+    } else if (x == 2) {
+        textContent = "<p>second text</p>"
+    } else if (x == 3) {
+        textContent = "<p>third text</p>"
+    } else if (x == 4) {
+        textContent = "<p>fourth text<p/>"
+    }
 }
 
 // On launch

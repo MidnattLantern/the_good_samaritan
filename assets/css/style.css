@@ -1,3 +1,8 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 p {
     font-size: 25px;
 }
@@ -6,4 +11,12 @@ p {
     width: 160px;
     height: 160px;
     background-color: red;
+}
+
+#content_window {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    border: solid black 1px;
 }

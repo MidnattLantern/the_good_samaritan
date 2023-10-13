@@ -13,6 +13,12 @@ p {
     background-color: red;
 }
 
+.textbox {
+    margin: 10px;
+    border:solid black 1px;
+    display: flex;
+}
+
 #content_window {
     width: 1000px;
     margin-left: auto;

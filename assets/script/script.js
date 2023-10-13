@@ -10,7 +10,7 @@ function progressStory() {
     console.log("textContent:", textContent);
 
     // Appends integer for textboxId
-    let appendText = document.getElementById("textbox");
+    let appendText = document.getElementById("textboxes_window");
     let newText = document.createElement("li");
     newText.innerHTML = textContent;
     appendText.appendChild(newText);
@@ -19,13 +19,41 @@ function progressStory() {
 // Text content changes for next append
 function updateTextboxId(x) {
     if (x == 1) {
-        textContent = "<p>first text</p>"
+        textContent = `
+        <li class="textbox">
+                <img src="../the_good_samaritan/assets/images/textbox_card/sam_box_neutral_v1.png">
+                <p>
+                Hey.
+                </p>
+        </li>
+        `
     } else if (x == 2) {
-        textContent = "<p>second text</p>"
+        textContent = `
+        <li class="textbox">
+                <img src="../the_good_samaritan/assets/images/textbox_card/sam_box_neutral_v1.png">
+                <p>
+                Are you okay?
+                </p>
+        </li>
+        `
     } else if (x == 3) {
-        textContent = "<p>third text</p>"
+        textContent = `
+        <li class="textbox">
+                <div class="test_box"></div>
+                <p>
+                I feel so stupid.
+                </p>
+        </li>
+        `
     } else if (x == 4) {
-        textContent = "<p>fourth text<p/>"
+        textContent = `
+        <li class="textbox">
+                <img src="../the_good_samaritan/assets/images/textbox_card/sam_box_neutral_v1.png">
+                <p>
+                Here.
+                </p>
+        </li>
+        `
     }
 }
 

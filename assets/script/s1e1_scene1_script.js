@@ -17,6 +17,7 @@ function progressStory() {
 }
 
 document.onkeypress = function(e) {
+    // Listen if user press spacebar
     e = e || window.event;
     var charCode = (typeof e.which == "number") ? e.which : e.keyCode;
     if (charCode) {
@@ -116,9 +117,7 @@ function updateTextboxId(x) {
     } else if (x == 10) {
         textContent = `
         <li class="textbox">
-                <p>
-                Click here to continue
-                </p>
+        <a href="../the_good_samaritan/s1e1_scene2.html">Click here to continue</a>
         </li>
         `
     }

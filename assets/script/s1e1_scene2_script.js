@@ -260,7 +260,13 @@ function updateTextboxId(x) {
                 </p>
         </li>
         `
-    } 
+    } else if (x == 26) {
+        textContent = `
+        <li class="textbox">
+        <a href="../the_good_samaritan/s1e1_scene3.html">Click here to continue</a>
+        </li>
+        `
+    }
 }
 
 // On launch

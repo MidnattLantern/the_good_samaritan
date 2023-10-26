@@ -39,7 +39,7 @@ function updateTextboxId(x) {
     } else if (x == 3) {
         textContent = `
         <li class="textbox">
-                <div class="test_box"></div>
+                <img src="../the_good_samaritan/assets/images/textbox_card/jen_box_neutral.png">
                 <p>
                 I feel so stupid.
                 </p>
